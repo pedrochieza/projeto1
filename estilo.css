@@ -1,0 +1,91 @@
+body {
+    background-color: #d5c7ff;
+}
+
+figure {    
+    width: 450px;
+    margin: 0 auto;
+}
+
+figure img {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 4px white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+    padding-right: 55px;
+    padding-left: 50px;
+}
+
+ul {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 3px black;
+}
+
+footer {
+    text-align: center;
+}
+
+div {
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background-image: url("./imagens/fundo.jpg");
+    width: 100%;
+}
+
+a:link {color: lightcoral; }
+
+a:visited {color: darkslateblue}
+
+a:hover {color: lightseagreen; }
+
+a:active  {color: lightyellow; }
+
+@media only screen and (max-device-width: 900px) {
+    .menu { width:100%; }
+    .menu { width:600px; }
+    figure {    
+        width: auto;
+        margin: 0 auto;
+    }
+    iframe {
+        width: auto;
+    }
+    }
+    
+@media only screen and (max-device-width: 700px) {
+    .menu { width:400px; }
+    figure {    
+        width: auto;
+        margin: 0 auto;
+    }
+    iframe {
+        width: auto;
+    }
+}
